@@ -1,0 +1,257 @@
+body {
+    line-height: 65px;
+    background-image: url("../images/circuit.png");
+    margin: 0px auto; /*when an image is added on the background, it wraps around it and this margin expression pushes it up*/
+}
+
+header {
+    position: fixed;
+    left: 15%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+#right {
+    float: right;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #777777;
+    text-align: right;
+    padding-right: 200px;
+    height: 40%;
+    width: 90%;
+}
+
+h1 {
+    padding-left: 15px;
+    text-align: left;
+}
+
+section {
+    color: #4aaaa5;
+    Background-color: ffffff;
+    height: 64px;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#picture {
+    float: left;
+    margin-left: 2%;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/ME.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    position: fixed;
+    clear: both;
+    top: 560px;
+    /*margin: 0 auto;*/
+    margin-left: 0px;
+    width: 100%;
+    padding: 10px 0;
+    /*height: 50px;*/
+    background: none repeat scroll 0 0 #4aaaa5;
+    color: #ffffff;
+    border-top: 5px solid grey;
+    text-align: center;
+    font-size: 13px;
+}
+
+.container {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    height: 450px;
+    width: 960px;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+#formposition {
+    margin-left: 2%
+}
+
+#box1 {
+    margin-left: 2%;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/mytravels.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label1 {
+    position: relative;
+    left: 0.40%;
+    top: 74.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+
+#box2 {
+    margin-left: 2%;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/favouritedishes.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label2 {
+    position: relative;
+    left: 0.40%;
+    top: 74.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+
+#box3 {
+    margin-left: 2%;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/hobbies.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label3 {
+    position: relative;
+    left: 0.40%;
+    top: 74.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+
+#box4 {
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/skills.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label4 {
+    position: relative;
+    left: 0.40%;
+    top: 74.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+
+#box5 {
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    height: 250px;
+    width: 250px;
+    background-image: url("../images/books.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label5 {
+    position: relative;
+    left: 0.40%;
+    top: 74.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: x-large; 
+    text-align: center;
+    height: 64px;
+    width: 250px;
+}
+
+@media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    body {
+        background-image: url("../images/circuit.png")
+    }
+    /* The container's width will be 600px */
+    .container {
+      width: 600px;
+    }
+
+    #right, nav, span {
+      position: relative;
+      /*float: right;*/
+      width: 980px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+        background-image: url("../images/circuit.png")
+    }
+    /* The container's width will be 500px */
+    .container {
+      width: 400px;
+    }
+
+    #right, nav, span {
+        position: relative;
+        /*float: right;*/
+        width: 768px;
+      }
+  }
+
+  @media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    body {
+        background-image: url("../images/circuit.png")
+    }
+    /* The container's width will be 300px */
+    .container {
+      width: 300px;
+    }
+
+    #right, nav, span {
+        position: relative;
+        /*float: right;*/
+        width: 640px;
+      }
+  }
